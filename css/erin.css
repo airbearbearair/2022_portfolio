@@ -17,4 +17,13 @@ body{
     height: 161px;
     width: 1024px;
     background-color: #e2b098;
+    position: relative;
+    a
 }
+
+#Erin-Thomas-Name{
+    position: inherit;
+    
+}
+
+/* End of day 1; frustrated but on my way. Keep working! Get text in the nav and figure it out. Probably has to be an a block (link in body) */
