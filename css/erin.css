@@ -2,6 +2,7 @@ body{
     background-color: antiquewhite;
     margin: 0px;
     width: 100%;
+    position: relative;
 }
 
 #main-container{
@@ -18,12 +19,75 @@ body{
     width: 1024px;
     background-color: #e2b098;
     position: relative;
-    a
-}
-
-#Erin-Thomas-Name{
-    position: inherit;
+    align-self: center;
     
 }
 
+#Erin-Thomas-Name{
+    position: relative;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+#links-in-nav{
+    position: relative;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#erinlogo{
+    margin: 55px;
+    bottom: 20px;
+}
+
+h1{
+    position: relative;
+    right: -250px;
+    bottom: 300px;
+    font-size: 90pt;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#bodytext{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#firstparagraph{
+    font-size: 12pt;
+    width: 898px;
+    height: 93px;
+    margin: 20px;
+}
+
+#secondparagraph{
+    font-size: 14pt;
+    width: 366px;
+    height: 198px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+#freddiequote{
+    width: 364px;
+    height: 209px;
+    margin-top: -350px;
+    margin-left: 20px;
+    color: white;
+    font-weight: lighter;
+    font-size: 18pt;
+}
+
+#erinpizzaevent{
+    /* this is the picture of me at the DNS pizza event  */
+    bottom: 300px;
+    padding-left: 20px;
+}
 /* End of day 1; frustrated but on my way. Keep working! Get text in the nav and figure it out. Probably has to be an a block (link in body) */
+/* End of day 2. Added lots of images and most home body text. added more comments explaining my code! Figured out things and wraps and all that flex box cuteness but also found a convientent way around it. ...work smarker not harder.  */
