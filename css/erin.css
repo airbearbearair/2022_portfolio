@@ -7,6 +7,10 @@ body{
     align-self: center;
 }
 
+#headimage{
+    margin-left: 30px;
+}
+
 #main-container{
     width: 1024px;
     height: 2000px;
@@ -21,14 +25,22 @@ body{
     width: 1024px;
     background-color: #e2b098;
     position: relative;
-    align-self: center;
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+}
+
+a{
+    color: white;
+    font-weight: light;
+    font-size: 25pt;
+    margin-left: 40px;
 }
 
 #Erin-Thomas-Name{
     position: relative;
     margin: 20px;
-    margin-top: 40px;
 }
 
 #links-in-nav{
@@ -39,15 +51,17 @@ body{
 }
 
 #erinlogo{
-    margin: 55px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     bottom: 20px;
 }
 
 h1{
     position: relative;
-    right: -250px;
-    bottom: 300px;
-    font-size: 90pt;
+    right: -220px;
+    bottom: 280px;
+    font-size: 89pt;
     color: white;
 }
 
@@ -108,6 +122,7 @@ p{
     width: 334px;
     height: auto;
     margin-top: -100px;
+    margin-left: 20px;
 }
 
 #mitskipostercomment{
@@ -126,5 +141,30 @@ p{
 
 #contactheader{
     font-size: 80pt;
-    margin-top: -300px;
+    margin-top: -330px;
+    font-weight: light;
+    padding: 20px;
+}
+
+#contact_text{
+    width: 595px;
+    height: 111px;
+    font-size: 18pt;
+    font-weight: lighter;
+    margin-top: -115px;
+    margin-right: 20px;
+}
+
+#contentsection{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -180px;
+}
+
+#contentheader{
+    font-size: 80pt;
+    font-weight: light;
+    padding: 20px;
+    color: white;
 }
