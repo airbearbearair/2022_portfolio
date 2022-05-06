@@ -3,6 +3,8 @@ body{
     margin: 0px;
     width: 100%;
     position: relative;
+    display: flex;
+    align-self: center;
 }
 
 #main-container{
@@ -91,3 +93,38 @@ p{
 }
 /* End of day 1; frustrated but on my way. Keep working! Get text in the nav and figure it out. Probably has to be an a block (link in body) */
 /* End of day 2. Added lots of images and most home body text. added more comments explaining my code! Figured out things and wraps and all that flex box cuteness but also found a convientent way around it. ...work smarker not harder.  */
+
+#freddiequotename{
+    position: relative;
+    bottom: 200px;
+    right: 150px;
+}
+
+#bodytext{
+    margin-top: -350px;
+}
+
+#mitskiposterpdf{
+    width: 334px;
+    height: auto;
+    margin-top: -100px;
+}
+
+#mitskipostercomment{
+    width: 412px;
+    height: 117px;
+    margin: 20px;
+    font-size: small;
+}
+
+#contactsection{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#contactheader{
+    font-size: 80pt;
+    margin-top: -300px;
+}
