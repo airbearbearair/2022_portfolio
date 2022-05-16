@@ -36,6 +36,8 @@ body{
     position: fixed;
     z-index: 2;
 }
+/* I believe it is a better introduction to my website to have my nav links fixed at the top of the page, as well as my hand-lettered name!!! Taking criticisms from Schoology */
+/* Z-index keeps fixed nav box above headers when scrolled, so the text doesn't go over the box */
 
 a{
     color: white;
@@ -293,9 +295,13 @@ h1, h2, h3 {
     color:#bb8f7a;
     text-decoration: none;
 }
+/* text-decoration takes away the lines beneath the links. More professional-looking */
 
 #aboutfootsection {
     margin-right: 30px;
     color: white;
     text-shadow: 2.5px 0px 0px #bb8f7a;
 }
+/* An optical illusion. About link is always white but it appears to the viewer like any section they are on turns white. */
+
+/* Some changes in size to better fit negative/positive space available... Tried to stay true to the mockup regardless!!!*/
