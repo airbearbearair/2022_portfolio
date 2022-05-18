@@ -1,4 +1,4 @@
-body{
+body {
     background-color: antiquewhite;
     margin: 0px;
     width: 100%;
@@ -8,25 +8,27 @@ body{
     align-self: center;
     overflow: scroll;
     scrollbar-color: #bb8f7a #e2b098;
+    justify-content: center;
 }
 
 #headimage {
     border: 2px solid #674E3B;
+    margin-top: 50px;
 }
 
 #main-container {
     width: 1024px;
-    height: 1800px;
+    height: 1850px;
     background-color: #bb8f7a;
     position: relative;
 }
 
-#headimagebox{
+#headimagebox {
     display: flex;
     justify-content: center;
 }
 
-#nav{
+#nav {
     height: 161px;
     width: 1024px;
     background-color: #e2b098;
@@ -39,7 +41,7 @@ body{
 /* I believe it is a better introduction to my website to have my nav links fixed at the top of the page, as well as my hand-lettered name!!! Taking criticisms from Schoology */
 /* Z-index keeps fixed nav box above headers when scrolled, so the text doesn't go over the box */
 
-a{
+a {
     color: white;
     font-weight: 800;
     font-size: 25pt;
@@ -47,26 +49,26 @@ a{
     text-decoration: none;
 }
 
-#Erin-Thomas-Name{
+#Erin-Thomas-Name {
     position: relative;
     margin: 20px;
 }
 
-#links-in-nav{
+#links-in-nav {
     position: relative;
     align-items: flex-end;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-#erinlogo{
+#erinlogo {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 40px;
     bottom: 20px;
 }
 
-h1{
+h1 {
     position: relative;
     right: -220px;
     bottom: 280px;
@@ -74,17 +76,17 @@ h1{
     color: white;
 }
 
-p{
+p {
     color: white;
 }
 
-#bodytext{
+#bodytext {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
 
-#firstparagraph{
+#firstparagraph {
     font-size: 12pt;
     width: 898px;
     height: 93px;
@@ -92,7 +94,7 @@ p{
     margin-top: 50px;
 }
 
-#secondparagraph{
+#secondparagraph {
     font-size: 14pt;
     width: 366px;
     height: 198px;
@@ -100,7 +102,7 @@ p{
     margin-top: -40px;
 }
 
-#freddiequote{
+#freddiequote {
     width: 364px;
     height: 209px;
     margin-top: -350px;
@@ -110,7 +112,7 @@ p{
     font-size: 18pt;
 }
 
-#erinpizzaevent{
+#erinpizzaevent {
     /* this is the picture of me at the DNS pizza event  */
     bottom: 300px;
     padding-left: 20px;
@@ -118,45 +120,45 @@ p{
 /* End of day 1; frustrated but on my way. Keep working! Get text in the nav and figure it out. Probably has to be an a block (link in body) */
 /* End of day 2. Added lots of images and most home body text. added more comments explaining my code! Figured out things and wraps and all that flex box cuteness but also found a convientent way around it. ...work smarker not harder.  */
 
-#freddiequotename{
+#freddiequotename {
     position: relative;
     bottom: 200px;
     right: 150px;
 }
 
-#bodytext{
+#bodytext {
     margin-top: -350px;
 }
 
-#mitskiposterpdf{
+#mitskiposterpdf {
     width: 334px;
     height: auto;
     margin-top: -100px;
     margin-left: 20px;
 }
 
-#mitskipostercomment{
+#mitskipostercomment {
     width: 412px;
     height: 117px;
     margin: 20px;
     font-size: small;
 }
 
-#contactsection{
+#contactsection {
     display: flex;
     color: white;
     flex-direction: column;
     align-items: flex-end;
 }
 
-#contactheader{
+#contactheader {
     font-size: 80pt;
     margin-top: -330px;
     font-weight: light;
     padding: 20px;
 }
 
-#contact_text{
+#contact_text {
     width: 560px;
     height: 111px;
     font-size: 18pt;
@@ -165,7 +167,7 @@ p{
     margin-right: 0px;
 }
 
-#contentsection{
+#contentsection {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -302,6 +304,6 @@ h1, h2, h3 {
     color: white;
     text-shadow: 2.5px 0px 0px #bb8f7a;
 }
-/* An optical illusion. About link is always white but it appears to the viewer like any section they are on turns white. */
 
+/* An optical illusion. About link is always white but it appears to the viewer like any section they are on turns white. */
 /* Some changes in size to better fit negative/positive space available... Tried to stay true to the mockup regardless!!!*/
