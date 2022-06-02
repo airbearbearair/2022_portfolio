@@ -80,6 +80,7 @@ h1 {
 
 p {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bodytext {
@@ -94,11 +95,12 @@ p {
     height: 93px;
     margin: 20px;
     margin-top: 25px;
+    padding-bottom: 15px;
 }
 
 #secondparagraph {
     font-size: 14pt;
-    width: 386px;
+    width: 396px;
     height: 198px;
     margin-left: 20px;
     margin-top: -60px;
@@ -117,7 +119,7 @@ p {
 #erinpizzaevent {
     /* this is the picture of me at the DNS pizza event  */
     /* bottom: 300px; */
-    padding-left: 20px;
+    /* padding-left: 20px; */
     margin-top: -80px;
     margin-left: 60px;
     
@@ -185,7 +187,7 @@ p {
     font-size: 80pt;
     font-weight: light;
     padding: 20px;
-    color: white;
+    color: #e2b098;
 }
 
 #contentholder {
@@ -198,24 +200,26 @@ p {
 }
 
 #contentdescription {
-    margin: 20px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-top: 60px;
     width: 450px;
     height: 200px;
+    color: #e2b098;
 }
 
 #eartothewall {
     margin-top: 130px;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
 #poem {
     margin-left: 60px;
-    margin-top: -400px;
+    margin-top: -360px;
 }
 
 #dirttub {
     margin: 20px;
+    
 }
 
  /* these are the descriptions and their alignments  */
@@ -223,6 +227,7 @@ p {
 #dirttubdesc {
     width: 300px;
     height: 85px;
+    color: #e2b098;
 }
 
 #poemfillerdesc {
@@ -231,6 +236,7 @@ p {
     margin-top: 5px;
     width: 378px;
     height: 53px;
+    color: #e2b098;
 }
 
 #paintingdesc {
@@ -239,6 +245,7 @@ p {
     margin-left: 130px;
     margin-top: 10px;
     text-align: right;
+    color: #e2b098;
 }
 
  /* these are the descriptions and their alignments  */
@@ -260,7 +267,7 @@ p {
      width: 460px;
      height: 330px;
      margin-left: 20px;
-     font-size: 14pt;
+     font-size: 13pt;
      margin-top: -90px;
  }
 
@@ -271,7 +278,7 @@ p {
 
 #workstationdesc {
     margin-top: -330px;
-    margin-left: 35px;
+    margin-left: -5px;
 }
 
 #peanutdesc {
@@ -381,6 +388,7 @@ p {
     height: 490px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
+    font-size: larger;
     padding-top: 10px;
   }
 
@@ -405,3 +413,7 @@ p {
   ::-webkit-scrollbar-thumb:hover {
     background: #674E3B;
   }
+
+  /* Times new roman is my fav font........... :'( it just makes sense to me!!!*/
+  /* I think i'll be good cus it's in my mockup got approved yaaas*/
+  /* no cus let me change some things to arial for readability too */
